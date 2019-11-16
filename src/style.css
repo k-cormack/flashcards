@@ -1,0 +1,37 @@
+.container {
+    display: flexbox;
+    
+}
+#nav-bar{
+    justify-content: center;
+    margin: 10px;
+}
+#text-area{
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#index-textArea{
+    resize: none;
+}
+#name-splash {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: red;
+    font-size: 25vh;
+}
+#merj-pic{
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    
+}
