@@ -23,14 +23,27 @@ $(document).ready(() => {
             $('#merj-pic').attr('src', './src/Images/merj/booger.jpg')
         }
         $('#merj-pic').show();
+        $('#begin-btn').show();
+        $('#reset-btn').show();
 
+    });
+
+    $('#begin-btn').click(()=>{
+        $('#nav-bar').hide();
+        $('#name-splash').hide();
+        $('#merj-pic').hide();
+        $('#begin-btn').hide();
+        // $('#reset-btn').hide();
     });
 
     $('#reset-btn').click(()=>{
         $('#name-splash').text('');
+        $('#nav-bar').show();
         $('#index-textArea').show();
         $('#start-btn').show();
         $('#merj-pic').hide();
+        $('#begin-btn').hide();
+        $('#reset-btn').hide();
     })
 
 
