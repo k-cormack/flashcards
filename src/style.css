@@ -17,12 +17,20 @@
     margin-top: 20px;
     margin-bottom: 40px;
     color: red;
-    font-size: 25vh;
+    font-size: 16vh;
+}
+#choose-splash{
+    margin-top: 20px;
+    color: blue;
+    font-size: 8vh;
 }
 #merj-pic{
     height: 300px;
     width: auto;
     object-fit: cover;
+}
+#choose-buttons{
+    margin-top: 200px;
 }
 
 
